@@ -55,3 +55,12 @@ const szemelyObj = {
     nev:"Béla",
     kor: 12
 }
+szemelyObj.nev = "Jolán";
+szemelyObj.nem = "nő";
+console.log(szemelyObj.nev)
+console.log(szemelyObj)
+console.log(szemelyObj["nev"])
+
+/* szemelyObj = {
+    nev:"Jenő"
+} */
